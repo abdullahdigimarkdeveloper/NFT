@@ -1,0 +1,117 @@
+@media screen and (max-width: 1250px) {
+  .mainHeader .navbar li a {
+    padding: 0px 10px !important;
+  }
+  .logo {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .footerLogo {
+    width: 250px;
+  }
+  .navbar-collapse {
+    margin-top: 35px;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none !important;
+  }
+  .navbar-toggler {
+    margin-top: -15px !important;
+  }
+  .mainHeader .navbar li a {
+    padding: 10px 10px !important;
+  }
+  .mainTitle {
+    font-size: 26px;
+  }
+  .mainTitle img {
+    width: 25px;
+    margin-top: -10px;
+  }
+  .seeAll {
+    font-size: 16px;
+    display: block;
+  }
+}
+@media screen and (max-width: 767px) {
+  .collect {
+    margin-top: 80px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .footerBottom h1 {
+    max-width: 100%;
+    text-align: center;
+  }
+  .footerTop .collect h1 {
+    font-size: 18px;
+  }
+  .footerTop .collect a {
+    font-size: 14px;
+    width: 150px;
+    height: 35px;
+  }
+  .subscribeMain {
+    padding: 10% 20px;
+  }
+  .subscribeMain h1 {
+    font-size: 28px;
+  }
+  .subscribeMain p {
+    font-size: 14px;
+  }
+  .subscribeMain input {
+    font-size: 12px;
+    padding: 10px;
+  }
+  .subscribeMain button {
+    font-size: 12px;
+    width: 130px;
+    height: 40px;
+  }
+  .subscribeMain input {
+    width: 100%;
+  }
+  .sellerCard .profile h1 {
+    font-size: 18px;
+    line-height: 37px;
+  }
+  .sellerCard .profile img {
+    width: 40px;
+    height: 40px;
+  }
+  .trendingNFT .customCard h1 {
+    font-size: 14px;
+  }
+  .viewProfileBtn {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .collections h1 {
+    font-size: 18px;
+  }
+  .moreCollections h1 {
+    font-size: 16px;
+  }
+  .cardBottom .price p {
+    font-size: 14px;
+  }
+  .trendingNFT .customCard h4 {
+    line-height: 10px;
+    font-size: 12px;
+  }
+  .trendingNFT .cardBottom .price h2 {
+    font-size: 13px;
+  }
+  .slick-slide img {
+    height: auto;
+  }
+  .mainTitle {
+    font-size: 20px;
+  }
+  .seeAll {
+    font-size: 14px;
+    display: block;
+  }
+}

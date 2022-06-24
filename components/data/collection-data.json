@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "img": "/assets/imgs/collection-1.png",
+    "author": "Johny",
+    "name": "Yellow Painting",
+    "price": "1,000"
+  },
+  {
+    "id": 2,
+    "img": "/assets/imgs/collection-2.png",
+    "author": "Johny",
+    "name": "Yellow Painting",
+    "price": "2,000"
+  },
+  {
+    "id": 3,
+    "img": "/assets/imgs/collection-1.png",
+    "author": "Johny",
+    "name": "Yellow Painting",
+    "price": "1,000"
+  },
+  {
+    "id": 4,
+    "img": "/assets/imgs/collection-2.png",
+    "author": "Johny",
+    "name": "Yellow Painting",
+    "price": "2,000"
+  },
+  {
+    "id": 5,
+    "img": "/assets/imgs/collection-1.png",
+    "author": "Johny",
+    "name": "Yellow Painting",
+    "price": "1,000"
+  },
+  {
+    "id": 6,
+    "img": "/assets/imgs/collection-2.png",
+    "author": "Johny",
+    "name": "Yellow Painting",
+    "price": "2,000"
+  },
+  {
+    "id": 7,
+    "img": "/assets/imgs/collection-1.png",
+    "author": "Johny",
+    "name": "Yellow Painting",
+    "price": "1,000"
+  },
+  {
+    "id": 8,
+    "img": "/assets/imgs/collection-2.png",
+    "author": "Johny",
+    "name": "Yellow Painting",
+    "price": "2,000"
+  }
+]

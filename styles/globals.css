@@ -1,0 +1,434 @@
+@font-face {
+  font-family: Conthrax;
+  src: url("../public/assets/fonts/conthrax-sb.ttf");
+}
+@font-face {
+  font-family: Poppins;
+  src: url("../public/assets/fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: Poppins-medium;
+  src: url("../public/assets/fonts/Poppins-Medium.ttf");
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Conthrax, sans-serif;
+  background: #e5e5e5;
+  background-color: #e5e5e5 !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+p {
+  margin-bottom: 0px !important;
+}
+* {
+  box-sizing: border-box;
+}
+.headerTop {
+  padding: 5px;
+}
+.headerTop > .d-flex {
+  gap: 20px;
+}
+.headerTop p {
+  font-family: "Conthrax";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: capitalize;
+  color: #7d7d7d;
+  margin-left: 5px;
+}
+.seperator {
+  width: 1px;
+  background-color: #7d7d7d;
+}
+.mainHeader .navbar li a {
+  font-family: "Conthrax";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #000000;
+  padding: 0px 20px !important;
+}
+.navbar {
+  position: static !important;
+}
+.navbar-brand {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.mainHeader .navbar li a.whitePaper {
+  font-family: "Conthrax";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 19px;
+  background: linear-gradient(89.69deg, #cb3a06 3.04%, #dd810c 99.72%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  border: 2px solid #cb3a06;
+  width: 144px;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+.navbar-toggler {
+  box-shadow: none;
+}
+.customSlider img {
+  width: 100%;
+  height: 220px;
+  border-radius: 40px;
+  border: 3px solid #c32203;
+}
+.cardBottom {
+  background: #5c5c5c;
+  padding: 10px;
+  border-bottom-left-radius: 12.3034px;
+  border-bottom-right-radius: 12.3034px;
+}
+.cardBottom .currency {
+  gap: 7px;
+}
+.cardBottom .currency img:first-child {
+  width: 25px;
+}
+.cardBottom .currency img:last-child {
+  width: 15px;
+}
+.cardBottom .price {
+  gap: 7px;
+}
+.cardBottom .price p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.2247px;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+.cardBottom .price h2 {
+  font-family: "Poppins-Medium";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17.2247px;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+.customCard {
+  background: #ffffff;
+  border-radius: 12.3034px;
+  padding-top: 15px;
+}
+.imageBorder {
+  border: 1px solid #cb3a06;
+  border-radius: 12.3034px;
+  padding: 3px;
+  margin-bottom: 20px;
+}
+.customCard h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.customCard h1 {
+  font-family: "Conthrax";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.floatingImage img {
+  border: 1.23034px solid #ffffff;
+  border-radius: 0px 37.5253px 0px 12.3034px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  width: 60px;
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+}
+.mainTitle {
+  font-family: "Conthrax";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000000;
+}
+.mainTitle img {
+  margin-top: -22px;
+}
+.seeAll {
+  font-family: "Conthrax";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  background: linear-gradient(180deg, #ca3806 0%, #dd800c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.mainTitle img.hand {
+  margin-top: -5px;
+  transform: rotate(180deg);
+}
+.sellerCard {
+  background: #ffffff;
+  border: 1px solid #c1c1c1;
+  border-radius: 12px;
+}
+.sellerCard .top {
+  height: 5px;
+  background: linear-gradient(180deg, #c21e02 0%, #e0900c 100%);
+  border-radius: 12px 12px 0px 0px;
+}
+.sellerCard .number {
+  font-family: "Conthrax";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.5);
+}
+.sellerCard .profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.sellerCard .profile h1 {
+  font-family: "Conthrax";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 0px;
+  color: #000000;
+  line-height: 50px;
+}
+.profile {
+  gap: 30px;
+}
+.profile .d-flex {
+  gap: 10px;
+}
+.viewProfile h2 {
+  font-family: "Conthrax";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #908f8f;
+}
+.viewProfile h3 {
+  font-family: "Conthrax";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #000000;
+}
+.viewProfileBtn {
+  font-family: "Conthrax";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  background: linear-gradient(180deg, #ca3806 0%, #dd800c 100%);
+  text-decoration: none;
+  padding: 15px 10px;
+  display: block;
+  text-align: center;
+  clip-path: polygon(
+    20% 0%,
+    93% 0%,
+    100% 20%,
+    100% 100%,
+    100% 100%,
+    7% 100%,
+    0% 80%,
+    0 0
+  );
+}
+.viewProfileBtn:hover {
+  color: white;
+}
+.collections h1 {
+  font-family: "Conthrax";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #000000;
+}
+.moreCollections h1 {
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(12px);
+  border-radius: 8px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Conthrax";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  color: #ffffff;
+}
+.sideItem .profile {
+  gap: 20px;
+}
+.sideItem .profile img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.sideItem .profile h1 {
+  font-size: 16px;
+  line-height: 35px;
+}
+.sideItem .viewProfile h3 {
+  font-size: 12px;
+}
+.sideItem .viewProfile h2 {
+  font-size: 12px;
+}
+.subscribeMain {
+  background: #ffffff;
+  border-radius: 20px;
+}
+.subscribeMain h1 {
+  font-family: "Conthrax";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  color: #000000;
+}
+.subscribeMain p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #999999;
+  max-width: 480px;
+  margin: 0 auto;
+}
+.subscribeMain {
+  text-align: center;
+  padding: 5% 20px;
+}
+.subscribeMain input {
+  border: 1px solid #c32203;
+  height: 50px;
+  padding: 20px;
+  font-family: "Conthrax";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+  max-width: 400px;
+  width: 400px;
+}
+.subscribeMain input::placeholder {
+  font-family: "Conthrax";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+}
+.subscribeMain button {
+  font-family: "Conthrax";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  background: linear-gradient(99.09deg, #c52a04 0%, #df8b0c 100%);
+  width: 160px;
+  height: 50px;
+  border: none;
+}
+.footerTop .collect h1 {
+  font-family: "Conthrax";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 0px;
+}
+.footerTop .collect a {
+  background: linear-gradient(91.08deg, #c93806 0.73%, #dc7f0c 99.29%);
+  border-radius: 8px;
+  font-family: "Conthrax";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  width: 176px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerLogo {
+  position: absolute;
+  width: 280px;
+}
+.footerBottom h1 {
+  font-family: "Conthrax";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 37px;
+  color: #000000;
+  max-width: 340px;
+}
+.footerBottom a i {
+  color: #000000;
+  font-size: 20px;
+}
+.footerBottom .title {
+  font-family: "Conthrax";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 20px;
+  color: #dd820c;
+}
+.footerBottom ul {
+  padding-left: 0px;
+  margin-top: 10px;
+  list-style: none;
+}
+.footerBottom li {
+  margin-bottom: 10px;
+}
+.footerBottom li a {
+  font-family: "Conthrax";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #000000;
+  text-decoration: none;
+}
