@@ -14,6 +14,15 @@ export default function Carasole(props) {
     cssEase: "linear",
     responsive: [
       {
+        breakpoint: 2500,
+        settings: {
+          slidesToShow: 5,
+          slidesToScroll: 5,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
         breakpoint: 1920,
         settings: {
           slidesToShow: 4,
@@ -24,6 +33,15 @@ export default function Carasole(props) {
       },
       {
         breakpoint: 1440,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 4,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 1200,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
@@ -51,28 +69,68 @@ export default function Carasole(props) {
   return (
     <div>
       <Slider className="customSlider" arrows={false} {...settings}>
-        <div className="p-3">
+        <div
+          className="p-3"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
           <img src="/assets/imgs/slider-1.png" alt="" />
         </div>
-        <div className="p-3">
+        <div
+          className="p-3"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
           <img src="/assets/imgs/slider-2.png" alt="" />
         </div>
-        <div className="p-3">
+        <div
+          className="p-3"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
           <img src="/assets/imgs/slider-3.png" alt="" />
         </div>
-        <div className="p-3">
+        <div
+          className="p-3"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
           <img src="/assets/imgs/slider-4.png" alt="" />
         </div>
-        <div className="p-3">
+        <div
+          className="p-3"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
           <img src="/assets/imgs/slider-1.png" alt="" />
         </div>
-        <div className="p-3">
+        <div
+          className="p-3"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
           <img src="/assets/imgs/slider-2.png" alt="" />
         </div>
-        <div className="p-3">
+        <div
+          className="p-3"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
           <img src="/assets/imgs/slider-3.png" alt="" />
         </div>
-        <div className="p-3">
+        <div
+          className="p-3"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
           <img src="/assets/imgs/slider-4.png" alt="" />
         </div>
       </Slider>

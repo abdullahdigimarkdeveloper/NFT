@@ -109,9 +109,15 @@
   }
   .mainTitle {
     font-size: 20px;
+    line-height: 30px;
   }
   .seeAll {
     font-size: 14px;
     display: block;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .sidebarMain {
+    top: 110px;
   }
 }

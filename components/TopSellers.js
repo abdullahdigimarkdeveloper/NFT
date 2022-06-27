@@ -2,7 +2,7 @@ export default function TopSellers() {
   return (
     <div>
       <div className="row gx-lg-5 gy-4">
-        <div className="col-lg-6">
+        <div className="col-lg-6" data-aos="fade-in" data-aos-duration="1500">
           <div className="sellerCard">
             <div className="top"></div>
             <div className="p-4">
@@ -64,7 +64,7 @@ export default function TopSellers() {
             </div>
           </div>
         </div>
-        <div className="col-lg-6">
+        <div className="col-lg-6" data-aos="fade-in" data-aos-duration="1500">
           <div className="row g-lg-5 g-sm-4 gy-2">
             <div className="col-sm-6">
               <div className="sideItem sellerCard">

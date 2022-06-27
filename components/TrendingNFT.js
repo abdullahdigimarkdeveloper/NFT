@@ -15,10 +15,19 @@ export default function TrendingNFT(props) {
     cssEase: "linear",
     responsive: [
       {
+        breakpoint: 2500,
+        settings: {
+          slidesToShow: 7,
+          slidesToScroll: 7,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
         breakpoint: 1920,
         settings: {
-          slidesToShow: 4,
-          slidesToScroll: 4,
+          slidesToShow: 6,
+          slidesToScroll: 6,
           infinite: true,
           dots: false,
         },
@@ -26,8 +35,8 @@ export default function TrendingNFT(props) {
       {
         breakpoint: 1440,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 4,
+          slidesToScroll: 4,
           infinite: true,
           dots: false,
         },
@@ -55,7 +64,11 @@ export default function TrendingNFT(props) {
         {Collection.map((data) => {
           return (
             <div key={data.id} className="p-2">
-              <div className="customCard">
+              <div
+                className="customCard"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+              >
                 <div className="px-3">
                   <div className="imageBorder position-relative">
                     <img className="w-100" src={data.img} alt="" />

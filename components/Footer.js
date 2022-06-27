@@ -1,13 +1,35 @@
+import Link from "next/link";
 export default function Footer() {
   return (
-    <div>
+    <div style={{ overflowX: "hidden" }}>
       <div className="footerTop position-relative pt-5 pb-sm-4 pb-3">
-        <img src="/assets/imgs/logo.svg" className="footerLogo" alt="" />
+        <Link href="/">
+          <a>
+            <img
+              src="/assets/imgs/logo.svg"
+              data-aos="fade-down-right"
+              data-aos-duration="1500"
+              className="footerLogo"
+              alt=""
+            />
+          </a>
+        </Link>
         <div className="container">
           <div className="d-flex justify-content-sm-end justify-content-center">
             <div className="d-sm-flex collect align-items-center gap-2">
-              <h1 className="mb-sm-0 mb-3">Ready to collect ?</h1>
-              <a href="" className="mx-auto">
+              <h1
+                className="mb-sm-0 mb-3"
+                data-aos="fade-down-left"
+                data-aos-duration="1500"
+              >
+                Ready to collect ?
+              </h1>
+              <a
+                href=""
+                className="mx-auto"
+                data-aos="fade-down-left"
+                data-aos-duration="1500"
+              >
                 View NFT
               </a>
             </div>
@@ -20,24 +42,42 @@ export default function Footer() {
       <div className="container footerBottom">
         <div className="row gy-3">
           <div className="col-md-6">
-            <h1>Create, sell, and collect NFT Digital Arts</h1>
+            <h1 data-aos="zoom-in-right" data-aos-duration="1500">
+              Create, sell, and collect NFT Digital Arts
+            </h1>
             <div className="d-flex justify-content-sm-start justify-content-center">
               <div className="d-flex gap-5 mt-3">
                 <a href="">
-                  <i className="fa fa-facebook"></i>
+                  <i
+                    className="fa fa-facebook"
+                    data-aos="zoom-in"
+                    data-aos-duration="1500"
+                  ></i>
                 </a>
                 <a href="">
-                  <i className="fa fa-twitter"></i>
+                  <i
+                    className="fa fa-twitter"
+                    data-aos="zoom-in"
+                    data-aos-duration="1500"
+                  ></i>
                 </a>
                 <a href="">
-                  <i className="fa fa-instagram"></i>
+                  <i
+                    className="fa fa-instagram"
+                    data-aos="zoom-in"
+                    data-aos-duration="1500"
+                  ></i>
                 </a>
               </div>
             </div>
           </div>
           <div className="col-md-6 pt-sm-0 pt-4">
             <div className="row gy-sm-0 gy-3">
-              <div className="col-sm-4 text-sm-start text-center">
+              <div
+                className="col-sm-4 text-sm-start text-center"
+                data-aos="fade-down"
+                data-aos-duration="1500"
+              >
                 <div className="title">Marketplace</div>
                 <ul>
                   <li>
@@ -54,7 +94,11 @@ export default function Footer() {
                   </li>
                 </ul>
               </div>
-              <div className="col-sm-4 text-sm-start text-center">
+              <div
+                className="col-sm-4 text-sm-start text-center"
+                data-aos="fade-down"
+                data-aos-duration="1500"
+              >
                 <div className="title">Company</div>
                 <ul>
                   <li>
@@ -71,7 +115,11 @@ export default function Footer() {
                   </li>
                 </ul>
               </div>
-              <div className="col-sm-4 text-sm-start text-center">
+              <div
+                className="col-sm-4 text-sm-start text-center"
+                data-aos="fade-down"
+                data-aos-duration="1500"
+              >
                 <div className="title">Help</div>
                 <ul>
                   <li>
